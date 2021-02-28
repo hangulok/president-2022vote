@@ -57,7 +57,7 @@ function Home() {
         if (data.error) {
           toast.error(data.error, { hideProgressBar: true, autoClose: 5000 })
         } else {
-          toast.info('Your feature has been added to the list.', {
+          toast.info('후보가 목록에 추가되었습니다.', {
             hideProgressBar: true,
             autoClose: 3000,
           })
@@ -79,7 +79,7 @@ function Home() {
         if (data.error) {
           toast.error(data.error, { hideProgressBar: true, autoClose: 3000 })
         } else {
-          toast.info('Your email has been added to the list.', {
+          toast.info('귀하의 이메일이 목록에 추가되었습니다.', {
             hideProgressBar: true,
             autoClose: 3000,
           })

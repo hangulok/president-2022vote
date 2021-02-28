@@ -9,7 +9,7 @@ module.exports = async (req, res) => {
   if (c === 0) {
     redis.quit()
     res.json({
-      error: 'You can not vote an item multiple times',
+      error: '한 후보에 여러 번 투표 할 수 없습니다.',
     })
   } else {
     let v = await redis.zincrby('roadmap', 1, title)

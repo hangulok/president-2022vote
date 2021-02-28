@@ -7,9 +7,9 @@ module.exports = async (req, res) => {
   if (!title) {
     redis.quit()
     res.json({
-      error: 'Feature can not be empty',
+      error: '후보명을 입력해 주세요.',
     })
-  } else if (title.length < 70) {
+  } else if (title.length < 20) {
     await redis.zadd('roadmap', 'NX', 1, title)
     redis.quit()
     res.json({
@@ -18,7 +18,7 @@ module.exports = async (req, res) => {
   } else {
     redis.quit()
     res.json({
-      error: 'Max 70 characters please.',
+      error: '최대 20 자까지 입력하세요.',
     })
   }
 }
