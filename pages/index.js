@@ -103,10 +103,10 @@ function Home() {
         </h1>
 
         <p className="description">
-          Help us by voting our roadmap.
+        제20대 대통령선거 예비 후보들의 선호도 조사
           <br />
           <span className="blue">&#x25B2;</span>
-          Vote up the features you want to see in the next release.
+          아래 후보들 중 좋아하는 후보에 투표해 주세요.(2인 이상 투표 가능)
         </p>
 
         <div className="grid">
@@ -136,9 +136,9 @@ function Home() {
                 type="text"
                 className="noborder"
                 ref={inputNewFeature}
-                placeholder="Enter a new feature request?"
+                placeholder="추가하고자 하는 후보가 있습니까?"
               />
-              <input type="submit" value="Save" className="button" />
+              <input type="submit" value="저장" className="button" />
             </form>
           </div>
 
@@ -148,9 +148,9 @@ function Home() {
                 type="text"
                 className="noborder"
                 ref={inputEmail}
-                placeholder="Enter your email to be notified on released items?"
+                placeholder="투표 결과를 E-mail로 받을 수 있습니다."
               />
-              <input type="submit" value="Save" className="button" />
+              <input type="submit" value="저장" className="button" />
             </form>
           </div>
         </div>
