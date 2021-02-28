@@ -1,63 +1,26 @@
 # Redis Example (with Upstash)
 
-This example showcases how to use Redis as a data store in a Next.js project. 
+이 저장소는 
 
-The example is a roadmap voting application where users can enter and vote for feature requests. It features the following:
+https://github.com/upstash/serverless-tutorials 의 roadmap-voting-app을 클론하여 적용했습니다.
 
-- Users can add and upvote items (features in the roadmap), and enter their email addresses to be notified about the released items.
-- The API records the ip-addresses of the voters, so it does not allow multiple votes on the same item from the same IP address.
+이 앱은 Upstash (Serverless Redis Database)를 데이터 저장소로 사용하는 Next.js 경험을 위해 진행하였습니다.
 
-## Demo
-See
-[https://roadmap.upstash.com](https://roadmap.upstash.com)
+-, 2022년 03월 09(수요일)에 실시 예정인 제20대 대통령 선거를 앞두고 예상되는 후보들의 선호도를 지지하는 투표 앱입니다.
+-, 여러 후보에게 투표할 수 있지만, 같은 아이피로 동일한 후보에게 중복 투표할 수 없습니다.
+-, 방문자는 예비후보를 추가할 수 있고 투표된 후보에 대한 알림을 받을 이메일 주소를 입력 할 수 있습니다.
+
+## 사이트 가기
+
+[https://president-voting.vercel.app/](https://president-voting.vercel.app/)
                                     
-## Deploy Your Own
-You can deploy Roadmap Voting App for your project/company using [Vercel and Upstash](https://vercel.com/integrations/upstash) clicking the below button:
+### 웹학교 강좌 소개
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fupstash%2Fserverless-tutorials%2Ftree%2Fmaster%2Froadmap-voting-app&env=LOGO&envDescription=Enter%20URL%20for%20your%20project%2Fcompany%20logo&envLink=https%3A%2F%2Fdocs.upstash.com%2Fdocs%2Ftutorials%2Froadmap_voting_app&project-name=roadmap-voting&repo-name=roadmap-voting&demo-title=Roadmap%20Voting&demo-description=Roadmap%20Voting%20Page%20for%20Your%20Project&demo-url=https%3A%2F%2Froadmap.upstash.com&integration-ids=oac_V3R1GIpkoJorr6fqyiwdhl17)
-
-## Configuration
-The application uses [Upstash](https://upstash.com) (Serverless Redis Database) as its data storage. During deployment, you will be asked to integrate Upstash. The integration dialog will help you create an Upstash database for free and link it to your Vercel project with the following steps:
-
-### Deployment Steps
-After clicking the deploy button, enter a name for your project. Then you will be asked to install Upstash integration.
-<br/>
-<img src="./docs/s2.png" width="300" />
-<br/>
-
-You can sign up/sign in the following dialog:
-<br/>
-<img src="./docs/s3.png" width="300" />
-<br/>
-
-Create a free database:
-<br/>
-<img src="./docs/s4.png" width="300" />
-<br/>
-
-Select your database and the Vercel project:
-<br/>
-<img src="./docs/s5.png" width="300" />
-<br/>
-
-Click `COMPLETE ON VERCEL` button:
-<br/>
-<img src="./docs/s6.png" width="300" />
-<br/>
-
-Finish you deployment by choosing a repository to host the project. In the next step, set the URL of your project's logo:
-<br/>
-<img src="./docs/s7.png" width="300" />
-<br/>
-
-Your Roadmap Voting Page should be ready:
-<br/>
-<img src="./docs/s8.png" width="300" />
-<br/>
-
-### Maintenance
-The application uses a Redis database to store the feature requests and emails. The features requests are kept in a sorted set with name `roadmap`. You can connect to it via Redis-cli and manage the data using the command `zrange roadmap 0 1000 WITHSCORES`. The emails are stored in a set with name `emails`. So you can get the list by the command `smembers emails`.  
-
-
-
-       
+[https://365ok.co.kr/tj/gnuboard](https://365ok.co.kr/tj/gnuboard) : 그누보드5 강좌
+[https://365ok.co.kr/tj/youngcart](https://365ok.co.kr/tj/youngcart) : 영카트5 강좌
+[https://365ok.co.kr/tj/html7](https://365ok.co.kr/tj/html7) : HTML 강좌
+[https://365ok.co.kr/tj/css7](https://365ok.co.kr/tj/css7) : CSS 강좌
+[https://365ok.co.kr/tj/js](https://365ok.co.kr/tj/js) : Javascript 강좌
+[https://365ok.co.kr/tj/bootstrap4](https://365ok.co.kr/tj/bootstrap4) : Bootstrap4 강좌
+[https://365ok.co.kr/tj/sql](https://365ok.co.kr/tj/sql) : SQL 강좌
+....
