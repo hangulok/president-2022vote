@@ -99,13 +99,13 @@ function Home() {
 
       <main>
         <h1 className="title">
-          <img src={logo} alt="Logo" className="logo" />
+        제20대 대통령선거 예비 후보들의 선호도 조사
         </h1>
 
         <p className="description">
-        제20대 대통령선거 예비 후보들의 선호도 조사
-          <br />
           (대선 예정일 : 2022.03.09. 수요일)
+          <br />
+          (설문 시작일 : 2021.03.01. 월요일)
           <br />
           <span className="blue">&#x25B2;</span>
           아래 후보들 중 좋아하는 후보에 투표해 주세요.(2인 이상 투표 가능)
@@ -160,14 +160,12 @@ function Home() {
 
       <footer>
         <a
-          href="https://vercel.com/integrations/upstash"
+          href="https://365ok.co.kr"
           target="_blank"
           rel="noopener noreferrer"
         >
           Powered by
-          <img src="/vercel.svg" alt="Vercel Logo" />
-          and
-          <img src="/upstash.png" alt="Upstash Logo" />
+          <img src={logo} alt="Logo" className="logo" />
         </a>
       </footer>
       <ToastContainer />
