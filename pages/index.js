@@ -71,7 +71,7 @@ function Home() {
   return (
     <div className="container">
       <Head>
-        <meta charset="utf-8">
+        <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
         <meta name="viewport" content="width=device-width,initial-scale=1"></meta>
         <title>제20대 대통령선거 예비 후보들의 선호도 조사</title>
