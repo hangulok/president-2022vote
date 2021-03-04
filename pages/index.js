@@ -135,7 +135,7 @@ function Home() {
             </div>
           )}
 
-          <div className="card">
+          {/* <div className="card">
             <form onSubmit={handleNewFeature}>
               <input
                 type="text"
@@ -145,7 +145,7 @@ function Home() {
               />
               <input type="submit" value="저장" className="button" />
             </form>
-          </div>
+          </div> */}
 
           <div className="card">
             <form onSubmit={handleNewEmail}>
