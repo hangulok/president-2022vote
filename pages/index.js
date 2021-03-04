@@ -45,28 +45,6 @@ function Home() {
       })
   }
 
-  // const handleNewFeature = (event) => {
-  //   const requestOptions = {
-  //     method: 'POST',
-  //     headers: { 'Content-Type': 'application/json' },
-  //     body: JSON.stringify({ title: inputNewFeature.current.value }),
-  //   }
-  //   fetch('api/create', requestOptions)
-  //     .then((response) => response.json())
-  //     .then((data) => {
-  //       if (data.error) {
-  //         toast.error(data.error, { hideProgressBar: true, autoClose: 5000 })
-  //       } else {
-  //         toast.info('후보가 목록에 추가되었습니다.', {
-  //           hideProgressBar: true,
-  //           autoClose: 3000,
-  //         })
-  //         refreshData()
-  //       }
-  //     })
-  //   event.preventDefault()
-  // }
-
   const handleNewEmail = (event) => {
     const requestOptions = {
       method: 'POST',
@@ -134,18 +112,6 @@ function Home() {
               <img src="/loader.gif" />
             </div>
           )}
-
-          {/* <div className="card">
-            <form onSubmit={handleNewFeature}>
-              <input
-                type="text"
-                className="noborder"
-                ref={inputNewFeature}
-                placeholder="추가하고자 하는 후보가 있습니까?"
-              />
-              <input type="submit" value="저장" className="button" />
-            </form>
-          </div> */}
 
           <div className="card">
             <form onSubmit={handleNewEmail}>
