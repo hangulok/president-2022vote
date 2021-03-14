@@ -2,7 +2,7 @@
 
 https://github.com/upstash/serverless-tutorials 의 roadmap-voting-app을 클론하여 적용했습니다.
 
-이 앱은 Upstash (Serverless Redis Database)를 데이터 저장소로 사용하는 Next.js 경험을 위해 진행하였습니다.
+이 앱은 *Upstash (Serverless Redis Database)*를 데이터 저장소로 사용하는 *Next.js* 경험을 위해 진행하였습니다.
 
 -, 2022년 03월 09(수요일)에 실시 예정인 제20대 대통령 선거를 앞두고 예상되는 후보들의 선호도를 지지하는 투표 앱입니다.
 
