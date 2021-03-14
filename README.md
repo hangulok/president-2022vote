@@ -19,18 +19,18 @@ https://github.com/upstash/serverless-tutorials 의 roadmap-voting-app을 클론
 
 ### 웹학교 강좌 소개
 
-[https://365ok.co.kr/tj/gnuboard](https://365ok.co.kr/tj/gnuboard) : 그누보드5 강좌
+[그누보드5 강좌](https://365ok.co.kr/tj/gnuboard)
 
-[https://365ok.co.kr/tj/youngcart](https://365ok.co.kr/tj/youngcart) : 영카트5 강좌
+[영카트5 강좌](https://365ok.co.kr/tj/youngcart)
 
-[https://365ok.co.kr/tj/html7](https://365ok.co.kr/tj/html7) : HTML 강좌
+[HTML 강좌](https://365ok.co.kr/tj/html7)
 
-[https://365ok.co.kr/tj/css7](https://365ok.co.kr/tj/css7) : CSS 강좌
+[CSS 강좌](https://365ok.co.kr/tj/css7)
 
-[https://365ok.co.kr/tj/js](https://365ok.co.kr/tj/js) : Javascript 강좌
+[Javascript 강좌](https://365ok.co.kr/tj/js)
 
-[https://365ok.co.kr/tj/bootstrap4](https://365ok.co.kr/tj/bootstrap4) : Bootstrap4 강좌
+[Bootstrap4 강좌](https://365ok.co.kr/tj/bootstrap4)
 
-[https://365ok.co.kr/tj/sql](https://365ok.co.kr/tj/sql) : SQL 강좌
+[SQL 강좌](https://365ok.co.kr/tj/sql)
 
 ....
