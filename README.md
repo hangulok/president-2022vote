@@ -11,12 +11,6 @@ https://github.com/upstash/serverless-tutorials 의 roadmap-voting-app을 클론
 -, 방문자는 예비후보를 추가할 수 있고 투표된 후보에 대한 알림을 받을 이메일 주소를 입력 할 수 있습니다.
 
 
-## 사이트 가기
-
-[https://president-voting.vercel.app/](https://president-voting.vercel.app/)
-
-
-
 ### 웹학교 강좌 소개
 
 - [그누보드5 강좌](https://365ok.co.kr/tj/gnuboard)
